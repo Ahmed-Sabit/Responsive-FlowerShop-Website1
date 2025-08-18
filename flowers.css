@@ -54,3 +54,29 @@ nav ul li {
     font-size: 1rem;
     font-weight: bold;
 }
+.left-column1 {
+    width: 50%;
+}
+.banner {
+    display: flex;
+    margin-bottom: 120px;
+}
+.banner-img {
+    width: 100%;
+}
+.banner-title {
+    color: #000000;
+    font-size: 4rem;
+    display: bold;
+    line-height: auto;
+}
+.special-text {
+    color: #E95A08;
+}
+.banner-para {
+    margin-top: 13px;
+    color: #000000;
+    opacity: 50%;
+    line-height: auto;
+    font-size: 1.7rem;
+}
