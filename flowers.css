@@ -89,11 +89,15 @@ nav ul li {
 
 /* Mobile Styles */
 @media screen and (max-width: 576px){
-    header {
-        max-width: 1440px;
+    body{
+        width: 100vw;
+        height: 100vh;
     }
     .nav-style {
         max-width: 85vw;
+        margin: 13px auto 28px; 
+        display: flex;
+        align-items: center;
     }
     .logo-img {
         max-height: 5vh;
@@ -117,5 +121,9 @@ nav ul li {
     }
     .right-column1 {
         width: 100%;
+    }
+    .banner-para {
+        font-size: 0.8rem;
+        line-height: auto;
     }
 }
