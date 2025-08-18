@@ -70,6 +70,12 @@ nav ul li {
     display: bold;
     line-height: auto;
 }
+.special-list {
+    line-height: 1.24;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #252432;
+}
 .special-text {
     color: #E95A08;
 }
@@ -79,4 +85,37 @@ nav ul li {
     opacity: 50%;
     line-height: auto;
     font-size: 1.7rem;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 576px){
+    header {
+        max-width: 1440px;
+    }
+    .nav-style {
+        max-width: 85vw;
+    }
+    .logo-img {
+        max-height: 5vh;
+        height: 100%;
+    }
+    #disappear {
+        display: none;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        /* margin-bottom: 10px; */
+        gap: 28px;
+    }
+    .banner-title {
+        font-size: 1.5rem;
+    }
+    .left-column1 {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .right-column1 {
+        width: 100%;
+    }
 }
