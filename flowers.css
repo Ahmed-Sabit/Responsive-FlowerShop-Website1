@@ -187,6 +187,53 @@ nav ul li {
     font-size: 1.35rem;
 }
 
+/* Section 3 {} */
+.img-section {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 120px;
+}
+.left-column3 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 366px;
+}
+.section-content {
+    margin-bottom: 120px;
+}
+.img-text-title {
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 19px;
+    color: #FFFFFF;
+}
+.img-text-link a {
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+.img-text-link  {
+    padding: 0px 95px 19px 95px;
+}
+.img-container1 {
+    padding: 65px 48px;
+    background-image: url(assets/deal-bloom.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.img-container2 {
+    padding: 60px 48px 46px 49px;
+    background-image: url(assets/deal-ana.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
 /* Mobile Styles */
 @media screen and (max-width: 576px){
     * {
