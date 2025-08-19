@@ -381,6 +381,7 @@ nav ul li {
         display: flex;
         flex-direction: column;
         gap: 18px;
+        margin-bottom: 50px;
     }
     .img-section{
         display: flex;
@@ -418,6 +419,16 @@ nav ul li {
         font-size: 1.5rem;
         margin-bottom: 16px;
         text-align: left;
+    }
+    .section-content {
+        margin-bottom: 50px;
+    }
+    .section-title3 {
+        font-size: 1.5rem;
+    }
+    .section-para3 {
+        font-size: 0.84rem;
+        max-width: 75vw;
     }
     .left-column3 {
         max-width: 85vw;
