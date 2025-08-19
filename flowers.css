@@ -14,7 +14,7 @@
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: bold;
-  font-style: normal;
+  font-style: 16px;
   font-variation-settings:
     "wdth" 100;
 }
@@ -110,11 +110,16 @@ nav ul li {
 .items-img {
     width: 100%;
 }
+.items:hover {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+}
 .grid-layout {
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     gap: 30px 20px;
-    margin-bottom: 210px;
+    margin-bottom: 190px;
 }
 .item-title {
     text-align: center;
@@ -147,6 +152,39 @@ nav ul li {
     border-radius: 20px;
     transform: scale(0.85);
     background-color: #aa0808;
+}
+
+/* Section 2 {} */
+
+.plant-lover {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.trusted-pic {
+    position: absolute;
+    max-height: 40vh;
+    margin-left: -720px;
+    margin-top: -510px;
+    filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.right-column2 {
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-title2 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+.right-column2 ul li {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate(30px);
+    margin-bottom: 20px;
+    font-size: 1.35rem;
 }
 
 /* Mobile Styles */
