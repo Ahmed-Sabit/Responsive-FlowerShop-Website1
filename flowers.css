@@ -91,7 +91,7 @@ nav ul li {
     font-size: 1.7rem;
 }
 
-/* Section-1 {} */
+/* Section-1 {Our-Plants} */
 
 .section-title1 {
     font-size: 3.1rem;
@@ -154,7 +154,7 @@ nav ul li {
     background-color: #aa0808;
 }
 
-/* Section 2 {} */
+/* Section 2 {plant-lover} */
 
 .plant-lover {
     display: flex;
@@ -193,7 +193,7 @@ nav ul li {
     width: 540px;
 }
 
-/* Section 3 {} */
+/* Section 3 {latest-deal} */
 
 .section-para3 {
     color: rgba(0, 0, 0, 0.5);
@@ -376,5 +376,49 @@ nav ul li {
     .og-btn {
         padding: 19px 30px 19px 30px;
         font-size: 1rem;
+    }
+    .plant-lover {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .img-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .trusted-pic {
+        display: none;
+    }
+    .img-section {
+        max-width: 90vw;
+    }
+    .left-column2 {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+    .left-column2-img {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+    .right-column2 {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+    .right-column2 ul {
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+    .right-column2 ul li p {
+        max-width: 78vw;
+        font-size: 0.85rem;
+    }
+    .right-column2 ul li {
+        max-width: 80vw;
+        transform: translate(10px);
+    }
+    .section-title2 {
+        font-size: 1.5rem;
+        margin-bottom: 16px;
+        text-align: left;
     }
 }
