@@ -305,7 +305,9 @@ nav ul li {
 }
 
 /* Footer Styles */
-
+footer {
+    max-width: 1440px;
+}
 .footer-img {
     background-image: url(assets/news-letter-bg.png);
     background-repeat: none;
@@ -340,7 +342,39 @@ nav ul li {
     padding: 19px 52px;
     background-color: #E95A08;
 }
-
+.footer-logo {
+    margin-bottom: 16px;
+}
+.footer-para {
+    text-align: left;
+}
+.item {
+    color: rgba(107, 114, 128, 1);
+    font-size: 1rem;
+    line-height: 1.24;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 160px;
+}
+.left-content {
+    max-width: 350px;
+}
+.center-grid {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 32px 100px;
+}
+.right-links img {
+    max-width: 32px;
+    max-height: 32px;
+}
+.right-links {
+    display: flex; 
+    gap: 24px;
+} 
 
 /* Mobile Styles */
 @media screen and (max-width: 576px){
