@@ -22,6 +22,9 @@ header {
     max-width: 1140px;
     margin: 0 auto;
 }
+html , body {
+    overflow-x: hidden;
+}
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -383,8 +386,8 @@ footer {
         margin: 0;
     }
     body{
-        width: 100vw;
-        height: 100vh;
+        max-width: 1140px;
+        max-width: 100%;
     }
     .nav-style {
         max-width: 85vw;
@@ -394,7 +397,6 @@ footer {
     }
     .logo-img {
         max-height: 5vh;
-        height: 100%;
     }
     #disappear {
         display: none;
@@ -413,7 +415,7 @@ footer {
         margin: 0 auto;
     }
     .right-column1 {
-        width: 100%;
+        width: 90vw;
     }
     .banner-para {
         font-size: 0.8rem;
@@ -428,7 +430,7 @@ footer {
         margin-bottom: 28px;
     }
     .grid-layout {
-        width: 95vw;
+        width: 90vw;
         margin: 0 auto 40px auto;
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
